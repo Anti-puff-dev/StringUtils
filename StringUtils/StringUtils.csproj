@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.1\StringUtils.deps.json" />
+    <Content Include="bin\Release\netcoreapp2.1\StringUtils.deps.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.1\StringUtils.dll" />
+    <None Include="bin\Debug\netcoreapp2.1\StringUtils.pdb" />
+    <None Include="bin\Release\netcoreapp2.1\StringUtils.dll" />
+    <None Include="bin\Release\netcoreapp2.1\StringUtils.pdb" />
+  </ItemGroup>
+
 </Project>
