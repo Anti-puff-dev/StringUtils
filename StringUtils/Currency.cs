@@ -11,5 +11,6 @@ namespace StringUtils
         {
             return txt.Replace("R$", "").Replace(" ", "").Replace(".", "").Replace(",", ".");
         }
+
     }
 }
